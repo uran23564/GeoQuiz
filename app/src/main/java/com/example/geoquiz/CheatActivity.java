@@ -79,7 +79,7 @@ public class CheatActivity extends AppCompatActivity {
         });
     }
 
-    // zeug, was zu quizactivity geschickt wird, wenn cheatactivity zerstoert wird
+    // zeug, was zu quizactivity geschickt wird, wenn CheatActivity zerstoert wird
     private void setAnswerShownResult(boolean isAnswerShown){
         Intent data=new Intent();
         data.putExtra(EXTRA_ANSWER_SHOWN,isAnswerShown);
