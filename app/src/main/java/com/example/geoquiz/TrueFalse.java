@@ -1,8 +1,5 @@
 package com.example.geoquiz;
 
-/**
- * Created by merz_konstantin on 5/1/17.
- */
 
 public class TrueFalse extends Object {
     private int mQuestion; // referenziert auf den string der frage
